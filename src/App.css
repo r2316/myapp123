@@ -1,0 +1,81 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+.App
+{
+  text-align: left;
+}
+.services
+{
+  display: flex;
+  gap: 50px;
+  flex-wrap:wrap;
+  background-color: rgb(244,244,206);
+}
+.service
+{
+border: 1px solid red;
+text-align: center;
+width: 300px;
+
+}
+.Team
+{
+  display: flex;
+  gap:50px;
+  flex-wrap: wrap;
+  background-color: lightskyblue;
+}
+.Teammember
+{
+  background-color: blueviolet;
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.employee-img 
+{
+  width: 50px;  
+  height: 50px;
+}
+
